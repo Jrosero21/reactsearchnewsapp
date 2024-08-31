@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-green: hsl(93, 57%, 35%);
+    --clr-white: #d9d9d9;
+    --clr-dark: #222222;
+    --border-white: 1px solid var(--clr-white);
+    --border-blue: 1px solid var(--bg-green);
+    --radius: 10px;
+    --shadow: 0 4px 4px rgba(2, 9, 15, 0.25);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--clr-dark);
+    background-color: var(--bg-green);
+    padding: 2rem; /* Add some padding to the body for spacing */
+}
+
+h1 {
+    color: var(--clr-white);
+    font-size: rem;
+    line-height: 6rem;
+    text-align: center; /* Center the title text */
+    margin-bottom: 1rem; /* Add space between the title and the section */
+}
+
+
+.list-group {
+    list-style-type: disc; /* This adds bullet points */
+     /* padding-left: 20px;    Adds some left padding to indent the bullets */
+  }
+  
+  .list-group-item a {
+    color: blue; 
+    text-decoration: none; /* Removes the underline from links */
+  }
+  
+  .list-group-item a:hover {
+    color: darkblue; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  /* Add spacing between pagination buttons */
+.pagination .page-item {
+    margin-right: 5px; /* Adjust this value to control spacing */
+    margin-top: 10;
+  }
+  
+  /* Adjust the spacing for the last button to prevent extra margin */
+  .pagination .page-item:last-child {
+    margin-right: 0;
+    margin-top: 10;
+  }
+
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+
+
+
+
+
+
+
